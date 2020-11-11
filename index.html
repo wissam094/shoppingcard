@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Generics | Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="js/main.js"></script>   </head>
+    <body>
+        <header >
+           
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">Men</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Shirt</span>
+                    <img class="shop-item-image" src="https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="250px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Trousers</span>
+                    <img class="shop-item-image" src="https://allensolly.imgix.net/img/app/product/3/345752-1680796.jpg" width="200px" >
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">shorts</span>
+                    <img class="shop-item-image" src="https://images-na.ssl-images-amazon.com/images/I/51tA8NoCJjL._AC_UL1434_.jpg"width="250px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Djean</span>
+                    <img class="shop-item-image" src="https://oldnavy.gap.com/webcontent/0016/963/918/cn16963918.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Women</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Skirt</span>
+                    <img class="shop-item-image" src="https://images-na.ssl-images-amazon.com/images/I/71ughJzu-PL.__AC_SX342_QL70_ML2_.jpg" width="230">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Dress</span>
+                    <img class="shop-item-image" src="https://sites.create-cdn.net/siteimages/28/4/9/284928/15/7/9/15798435/919x1208.jpg?1505296014">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="https://sites.create-cdn.net/siteimages/28/4/9/284928/15/7/9/15798435/919x1208.jpg?1505296014" width="100" height="100">
+                        <span class="cart-item-title">Dress</span>
+                    </div>
+                    <span class="cart-price cart-column">$6.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="https://images-na.ssl-images-amazon.com/images/I/71ughJzu-PL.__AC_SX342_QL70_ML2_.jpg" width="100" height="100">
+                        <span class="cart-item-title">Skirt</span>
+                    </div>
+                    <span class="cart-price cart-column">$19.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="2">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$39.97</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        
+    </body>
+</html>
